@@ -72,7 +72,7 @@ const Contact = () => {
       <div className="relative min-h-screen flex items-center justify-center flex-col">
         <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
 
-        <div className="contact-container bg-gray-900 p-8 rounded-lg shadow-lg max-w-4xl mx-auto">
+        <div className="contact-container bg-gray-900 p-8 rounded-lg shadow-lg max-w-6xl mx-auto">
           <h3 className="head-text text-3xl text-white font-bold text-center">Let's talk</h3>
           <p className="text-lg text-gray-300 mt-3 text-center">
             Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to

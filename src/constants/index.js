@@ -282,7 +282,7 @@ export const workExperiences = [
     pos: 'Software Developer',
     duration: '2022 - Present',
     title:
-      "Collaborated closely with the frontend team to develop and maintain the company website using React, Next.js, and TypeScript, resulting in a 30% improvement in application efficiency and maintainability. Integrated real-time features such as live chat and notifications using technologies like Socket.io, enhancing user engagement and satisfaction by 35%.",
+      "Collaborated closely with the frontend team to develop and maintain the company website using React, Next.js, and TypeScript, resulting in a 30% improvement in application efficiency and maintainability. Integrated real-time features such as live chat and notifications using technologies like Socket.io, enhancing user engagement and satisfaction by 35%. ",
     icon: FiBriefcase,
     animation: 'victory',
   },
@@ -300,7 +300,7 @@ export const workExperiences = [
     id: 3,
     name: 'Climate Wavers',
     pos: 'Frontend Developer',
-    duration: '2013 - 2024',
+    duration: '2023 - 2024',
     title:
       "Crafted intuitive, accessible interfaces for climate-focused platforms, collaborating with multidisciplinary teams to launch impactful features that advanced the organization’s environmental mission and boosted user engagement.",
     icon: FiBriefcase,
