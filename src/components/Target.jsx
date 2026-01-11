@@ -2,6 +2,7 @@ import { useGLTF } from '@react-three/drei';
 import { useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
+import { useEffect } from 'react';
 
 /**
  * A component that renders a 3D model of a target stand.
@@ -25,10 +26,7 @@ const Target = (props) => {
    * @param {string} url - The URL of the model.
    * @returns {Object} An object containing the scene, nodes, materials, and animations of the model.
    */
-  const { scene } = useGLTF(
-    'https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf',
-    
-  );
+  const { scene } = useGLTF('/models/desk.glb');
 
   /**
    * Animates the target stand using the useGSAP hook from @gsap/react.
@@ -47,6 +45,31 @@ const Target = (props) => {
       yoyo: true,
     });
   });
+
+  // Hide any overly large circular/disc mesh that may be part of the model.
+  // This addresses an unwanted large disk appearing on top of the scene.
+  useEffect(() => {
+    if (!scene) return;
+    scene.traverse((child) => {
+      if (!child.isMesh) return;
+
+      const name = child.name || '';
+      // Hide meshes named like 'disk', 'circle', 'disc' explicitly.
+      if (/disk|circle|disc/i.test(name)) {
+        child.visible = false;
+        return;
+      }
+
+      // Otherwise, hide meshes that are unusually large (heuristic).
+      try {
+        if (child.geometry && !child.geometry.boundingSphere) child.geometry.computeBoundingSphere();
+        const r = child.geometry?.boundingSphere?.radius;
+        if (r && r > 1.2) child.visible = false;
+      } catch (e) {
+        // ignore geometry errors
+      }
+    });
+  }, [scene]);
 
   /**
    * Returns a JSX element representing the component.
