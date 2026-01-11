@@ -230,7 +230,7 @@ export const myProjects = [
     desc: 'The NGreen Logistics Application is a comprehensive logistics management system comprising two mobile applications (for users and carriers) and an admin dashboard. The solution facilitates seamless parcel delivery services, offering real-time order placement, tracking, and communication between customers and carriers.',
     subdesc:
       'The NGreen Logistics Application is designed to provide a reliable and efficient logistics platform, combining powerful backend services with an intuitive frontend experience. The use of React, React Native, NextJS, Paystack and Google API integrations ensures a scalable and user-friendly solution for both customers and service providers. And also an Admin Dashboard for managing the entire logistics process.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+    
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
