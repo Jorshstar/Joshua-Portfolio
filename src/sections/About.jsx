@@ -78,13 +78,12 @@ const About = () => {
             <div>
               <p className="grid-headtext">I am Joshua Akinbode</p>
               <p className="grid-subtext">
-                A passionate Software developer who thrives on building scalable and user-focused web experiences.
+                A passionate Software developer and AI Automation Specialist who thrives on building scalable and user-focused experiences.
                 Whether it’s designing clean, intuitive interfaces or engineering high-performing backend systems, I
                 love turning ideas into functional, impactful products.
                 <br />
                 I work primarily with the MERN stack (MongoDB, Express.js, React, Node.js), alongside tools like
-                Next.js, TypeScript, and Tailwind CSS. I’m always exploring how to make applications faster, smarter,
-                and more delightful even with AI.
+                Next.js, Python, Java, TypeScript, and Tailwind CSS. I also specialize in integrating AI-driven automation into applications, building intelligent systems that can analyze data, generate insights, streamline workflows and make applications faster, and smarter.
                 <br /> 
                 <br />
                 Beyond code, I’m all about collaboration, growth, and solving meaningful problems. When I’m not deep in

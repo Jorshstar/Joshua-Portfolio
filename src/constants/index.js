@@ -134,18 +134,182 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Next.js',
+        path: '/assets/next.svg',
+        icon: SiNextdotjs,
       },
       {
         id: 3,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
       },
       {
         id: 4,
         name: 'TypeScript',
         path: '/assets/typescript.png',
+      },
+      {
+        id: 5,
+        name: 'Node.js',
+        path: '/assets/nodejs.svg',
+        icon: FaNodeJs,
+      },
+      {
+        id: 6,
+        name: 'Socket.io',
+        path: '/assets/socketio.svg',
+        icon: SiSocketdotio,
+      },
+    ],
+  },
+  
+  {
+    title: 'Filly Edu - An E-learning Platform',
+    desc: 'Filly Edu is an e-learning platform designed to provide a comprehensive and engaging educational experience. It offers a wide range of courses, interactive learning materials, and personalized learning paths to help students achieve their academic goals. Also uses AI to generate quizzes and assignments for students.',
+    subdesc:
+      'The Filly Edu project is built with React.js, AI, Tailwind CSS, TypeScript, and Framer Motion, delivering a dynamic and user-friendly interface that enhances the online learning experience for students of all ages.',
+    href: 'https://www.fillyedu.com/',
+    texture: '/textures/project/project7.mp4',
+    logo: '/assets/project-logo5.png',
+    logoStyle: {
+      backgroundColor: '#1C1A43',
+      border: '0.2px solid #252262',
+      boxShadow: '0px 0px 60px 0px #635BFF4D',
+    },
+    spotlight: '/assets/spotlight5.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'Next.js',
+        path: '/assets/next.svg',
+        icon: SiNextdotjs,
+      },
+      {
+        id: 3,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 4,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 5,
+        name: 'Node.js',
+        path: '/assets/nodejs.svg',
+        icon: FaNodeJs,
+      },
+      {
+        id: 6,
+        name: 'Socket.io',
+        path: '/assets/socketio.svg',
+        icon: SiSocketdotio,
+      },
+    ],
+  },
+  {
+    title: 'Filly Hr - An HR Management System',
+    desc: 'Filly Hr is an HR management system designed to streamline human resources operations. It simplifies employee management, payroll processing, and performance tracking, ensuring a seamless experience for both HR staff and employees.',
+    subdesc:
+      'The Filly Hr project is built with React.js, AI, Tailwind CSS, TypeScript, and Framer Motion, delivering a dynamic and user-friendly interface that enhances the online experience for all employees',
+    href: 'https://www.fillyhr.com/',
+    texture: '/textures/project/project8.mp4',
+    logo: '/assets/project-logo7.png',
+    logoStyle: {
+      backgroundColor: '#1C1A43',
+      border: '0.2px solid #252262',
+      boxShadow: '0px 0px 60px 0px #635BFF4D',
+    },
+    spotlight: '/assets/spotlight5.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'Next.js',
+        path: '/assets/next.svg',
+        icon: SiNextdotjs,
+      },
+      {
+        id: 3,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 4,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 5,
+        name: 'Node.js',
+        path: '/assets/nodejs.svg',
+        icon: FaNodeJs,
+      },
+      {
+        id: 6,
+        name: 'Socket.io',
+        path: '/assets/socketio.svg',
+        icon: SiSocketdotio,
+      },
+    ],
+  },
+  {
+    title: 'Achimota - NSMQ Quiz Portal',
+    desc: 'Achimota is a quiz portal for the National Senior Middle School Quiz (NSMQ) in Ghana. It provides a platform for students to participate in the quiz and track their performance.',
+    subdesc:
+      'The Achimota NSMQ Quiz Portal is built with React.js, AI, Tailwind CSS, TypeScript, and Framer Motion, delivering a dynamic and user-friendly interface that enhances the online learning experience for students of all ages.',
+    href: 'https://www.achimotanmsq.com/',
+    texture: '/textures/project/project9.mp4',
+    logo: '/assets/project-logo6.png',
+    logoStyle: {  
+      backgroundColor: '#1C1A43',
+      border: '0.2px solid #252262',
+      boxShadow: '0px 0px 60px 0px #635BFF4D',
+    },
+    spotlight: '/assets/spotlight5.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'Next.js',
+        path: '/assets/next.svg',
+        icon: SiNextdotjs,
+      },
+      {
+        id: 3,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 4,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 5,
+        name: 'Node.js',
+        path: '/assets/nodejs.svg',
+        icon: FaNodeJs,
+      },
+      {
+        id: 6,
+        name: 'Socket.io',
+        path: '/assets/socketio.svg',
+        icon: SiSocketdotio,
       },
     ],
   },
@@ -173,18 +337,31 @@ export const myProjects = [
       },
       {
         id: 2,
+        name: 'Next.js',
+        path: '/assets/next.svg',
+        icon: SiNextdotjs,
+      },
+      {
+        id: 3,
         name: 'TailwindCSS',
         path: 'assets/tailwindcss.png',
       },
       {
-        id: 3,
+        id: 4,
         name: 'TypeScript',
         path: '/assets/typescript.png',
       },
       {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        id: 5,
+        name: 'Node.js',
+        path: '/assets/nodejs.svg',
+        icon: FaNodeJs,
+      },
+      {
+        id: 6,
+        name: 'Socket.io',
+        path: '/assets/socketio.svg',
+        icon: SiSocketdotio,
       },
     ],
   },
@@ -210,34 +387,41 @@ export const myProjects = [
       },
       {
         id: 2,
+        name: 'Next.js',
+        path: '/assets/next.svg',
+        icon: SiNextdotjs,
+      },
+      {
+        id: 3,
         name: 'TailwindCSS',
         path: 'assets/tailwindcss.png',
       },
       {
-        id: 3,
+        id: 4,
         name: 'TypeScript',
         path: '/assets/typescript.png',
       },
       {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        id: 5,
+        name: 'Node.js',
+        path: '/assets/nodejs.svg',
+        icon: FaNodeJs,
+      },
+      {
+        id: 6,
+        name: 'Socket.io',
+        path: '/assets/socketio.svg',
+        icon: SiSocketdotio,
       },
     ],
   },
   {
-    title: 'Ngreen - Logistics Application',
-    desc: 'The NGreen Logistics Application is a comprehensive logistics management system comprising two mobile applications (for users and carriers) and an admin dashboard. The solution facilitates seamless parcel delivery services, offering real-time order placement, tracking, and communication between customers and carriers.',
+    title: 'Celeron-fe - A Car Management system',
+    desc: 'Celeron-fe is a car management system designed to streamline vehicle inventory, sales, and customer management for car dealerships. It provides a comprehensive platform for managing all aspects of the car dealership business.',
     subdesc:
-      'The NGreen Logistics Application is designed to provide a reliable and efficient logistics platform, combining powerful backend services with an intuitive frontend experience. The use of React, React Native, NextJS, Paystack and Google API integrations ensures a scalable and user-friendly solution for both customers and service providers. And also an Admin Dashboard for managing the entire logistics process.',
-    
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
+      'The Celeron-fe project is built with React.js, AI, Tailwind CSS, TypeScript, and Framer Motion, delivering a dynamic and user-friendly interface that enhances the online experience for all customers',
+    href: 'https://www.celeronfe.com/',
+    texture: '/textures/project/project6.mp4',
     spotlight: '/assets/spotlight5.png',
     tags: [
       {
@@ -247,18 +431,31 @@ export const myProjects = [
       },
       {
         id: 2,
+        name: 'Next.js',
+        path: '/assets/next.svg',
+        icon: SiNextdotjs,
+      },
+      {
+        id: 3,
         name: 'TailwindCSS',
         path: 'assets/tailwindcss.png',
       },
       {
-        id: 3,
+        id: 4,
         name: 'TypeScript',
         path: '/assets/typescript.png',
       },
       {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        id: 5,
+        name: 'Node.js',
+        path: '/assets/nodejs.svg',
+        icon: FaNodeJs,
+      },
+      {
+        id: 6,
+        name: 'Socket.io',
+        path: '/assets/socketio.svg',
+        icon: SiSocketdotio,
       },
     ],
   },
@@ -278,16 +475,26 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
+    name: 'Filly Coder',
+    pos: 'FullStack Developer',
+    duration: '2025 - Present',
+    title:
+      "Crafted intuitive, accessible interfaces for climate-focused platforms, collaborating with multidisciplinary teams to launch impactful features that advanced the organization’s environmental mission and boosted user engagement.",
+    icon: FiBriefcase,
+    animation: 'salute',
+  },
+  {
+    id: 2,
     name: 'Jak Technologies',
     pos: 'Software Developer',
-    duration: '2022 - Present',
+    duration: '2022 - 2025',
     title:
       "Collaborated closely with the frontend team to develop and maintain the company website using React, Next.js, and TypeScript, resulting in a 30% improvement in application efficiency and maintainability. Integrated real-time features such as live chat and notifications using technologies like Socket.io, enhancing user engagement and satisfaction by 35%. ",
     icon: FiBriefcase,
     animation: 'victory',
   },
   {
-    id: 2,
+    id: 3,
     name: 'IntelHub',
     pos: 'Fullstack Developer',
     duration: '2023 - 2024',
@@ -296,14 +503,5 @@ export const workExperiences = [
     icon: FiBriefcase,
     animation: 'clapping',
   },
-  {
-    id: 3,
-    name: 'Climate Wavers',
-    pos: 'Frontend Developer',
-    duration: '2023 - 2024',
-    title:
-      "Crafted intuitive, accessible interfaces for climate-focused platforms, collaborating with multidisciplinary teams to launch impactful features that advanced the organization’s environmental mission and boosted user engagement.",
-    icon: FiBriefcase,
-    animation: 'salute',
-  },
+  
 ];
